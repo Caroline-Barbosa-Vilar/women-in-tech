@@ -1,0 +1,11 @@
+:root {
+  --dark: #2c2a2a;
+  --blue: #1FB4E9;
+  --white: #ffffff;
+
+  --Roboto: 'Roboto', sans-serif;
+}
+html {
+  font-family: var(--Roboto);
+  color: var(--white);
+}
