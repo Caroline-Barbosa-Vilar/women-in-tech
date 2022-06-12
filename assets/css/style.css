@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--blue);
+  height: 14.5rem;
+}
+.header__title {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 4rem 0 0 3.3rem;
+  letter-spacing: .2rem;
+}
+.header__subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 3.3rem;
+}
+.container {
+  background-color: var(--dark);
+  height: 90vh;
+}
+.container__profile {
+  display: flex;
+}
+.container__profile-picture {
+  border-radius: 100%;
+}
+.container__women {
+  display: flex;
+}
+.container__women-img {
+  width: 50%;
+  border-radius: 100%;
+}
