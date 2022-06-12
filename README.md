@@ -1,7 +1,5 @@
 <p align='center'> <img src="./assets/flyLogo.jpg" alt="the logo of Fly Educação"> </p>
 
-<h1 align='center'> Fly Educação </h1>
-
 <div align='center'>
 	<img src="http://img.shields.io/static/v1?label=STATUS&message=DEVELOPING&color=yellow&style=for-the-badge"/>
 </div>
