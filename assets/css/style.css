@@ -15,6 +15,7 @@
 }
 .container {
   background-color: var(--main-bg);
+  max-height: 100%;
 }
 .container__profile {
   display: flex;
@@ -51,21 +52,23 @@
 }
 .container__women {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  max-height: 350px;
 }
 .container__women figure {
-  max-width: 15%;
+  width: 15%;
+  padding-top: 3rem;
 }
 .container__women-img {
-  width: 80%;
-  height: 35%;
+  width: 75%;
+  height: 50%;
   border-radius: 100%;
-  padding-top: 2rem;
+  margin: 0 1.25rem;
 }
 .container__women figcaption {
-  max-width: 60%;
   font-weight: 300;
   text-align: center;
+  margin: 1rem 0;
 }
 .footer {
   background-color: var(--footer-bg);
@@ -77,7 +80,7 @@
 }
 .footer h4 {
   font-size: 1.5rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .footer a {
   color: var(--color-footer-font);
