@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--blue);
+  background-color: var(--header-bg);
   height: 14.5rem;
 }
 .header__title {
@@ -14,19 +14,71 @@
   padding-left: 3.3rem;
 }
 .container {
-  background-color: var(--dark);
-  height: 90vh;
+  background-color: var(--main-bg);
 }
 .container__profile {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28rem;
 }
+.container__profile > div {
+  width: 40%;
+  height: 17rem;
+  /* border: 3px solid var(--border); */
+  border-style: double;
+  /* border-width: 1px; Porque não pegou se aparece na doc? */
+  padding: 3rem 0 0 2rem;
+  display: flex;
+ }
 .container__profile-picture {
   border-radius: 100%;
+  width: 10.5rem;
+  height: 10.5rem;
+}
+.container__profile-about {
+  padding: .7rem 0 0 .8rem;
+}
+.container__profile-name {
+  font-size: 1.8rem;
+}
+.container__profile-desc {
+  width: 80%;
+  text-align:left;
+  font-size: 1.035rem;
+  font-weight: 300;
+  line-height: 1.6rem;
 }
 .container__women {
   display: flex;
+  justify-content: space-between;
+}
+.container__women figure {
+  max-width: 15%;
 }
 .container__women-img {
-  width: 50%;
+  width: 80%;
+  height: 35%;
   border-radius: 100%;
+  padding-top: 2rem;
+}
+.container__women figcaption {
+  max-width: 60%;
+  font-weight: 300;
+  text-align: center;
+}
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--dark-footer-font);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  /* align-self: center;  por que não alinhou? */
+}
+.footer h4 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.footer a {
+  color: var(--color-footer-font);
 }
