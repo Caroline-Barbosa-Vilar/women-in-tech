@@ -25,6 +25,7 @@
 }
 .container__profile > div {
   width: 40%;
+  min-width: 490px;
   height: 17rem;
   /* border: 3px solid var(--border); */
   border-style: double;
@@ -54,6 +55,8 @@
   display: flex;
   justify-content: space-around;
   max-height: 350px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .container__women figure {
   width: 15%;
