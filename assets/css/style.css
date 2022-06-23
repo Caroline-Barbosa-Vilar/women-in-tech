@@ -63,8 +63,8 @@
   padding-top: 3rem;
 }
 .container__women-img {
-  width: 75%;
-  height: 50%;
+  width: 80%;
+  height: 40%;
   border-radius: 100%;
   margin: 0 1.25rem;
 }
@@ -85,6 +85,9 @@
   font-size: 1.5rem;
   padding-top: 2rem;
 }
-.footer a {
+.footer a:nth-child(2) {
+  color: var(--color-footer-font);
+}
+.footer a:hover {
   color: var(--color-footer-font);
 }
