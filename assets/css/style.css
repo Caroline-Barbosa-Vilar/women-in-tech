@@ -67,7 +67,11 @@
   height: 40%;
   border-radius: 100%;
   margin: 0 1.25rem;
+  object-fit: cover;
 }
+/* .container__women:last-child figure img {
+  margin-left: 0;
+} */
 .container__women figcaption {
   font-weight: 300;
   text-align: center;
