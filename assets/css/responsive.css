@@ -1,5 +1,15 @@
 @media (max-width: 768px) {
-  
+  .header__title {
+    text-align: center;
+  }
+  .header__subtitle {
+    text-align: center;
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .container__profile > div {
+    width: 50%;
+  }
 }
 @media (max-width: 375px) {
   .header {
